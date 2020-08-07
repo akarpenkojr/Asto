@@ -294,10 +294,11 @@
 		width: 97%;
 		height: 30vh;
 		background-color: #FFFFFF;
-		transition: 1s;
+		transition: .7s;
 		z-index: 11111;
 		margin-bottom: 20px;
 		padding: 10px;
+		opacity: .95;
 		&__title {
 			font-size: $secondTitleFontsizeM;
 			font-weight: 500;
@@ -351,6 +352,50 @@ div.owl-carousel-services-d-wrapper {
 	}
 }
 
+.person-area {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	padding-top: 50px;
+	&__data{
+		display: inline-block;
+		width: 50%;
+	}
+	&__name {
+		font-size: 16px;
+		font-weight: 700;
+	}
+	&__range {
+		margin-top: 20px;
+		font-size: 14px;
+		font-weight: 500;
+	}
+	&__achievement {
+		margin-top: 20px;
+		font-size: 11px;
+	}
+	&__button {
+		text-align: center;
+		width: 170px;
+		height: 50px;
+		margin-top: 70px;
+		background-color: $accent;
+		border-radius: 7px;
+		line-height: 50px;
+		color: white;
+	}
+	&__button a {
+		text-decoration: none;
+		color: white;
+		font-weight: 500;
+	}
+	&__portrait {
+		width: 50%;
+		& img {
+			width: 100%;
+		}
+	}
+}
 
 @media screen and (min-width: 992px) {
 	.right-line {
@@ -419,15 +464,40 @@ div.owl-carousel-services-d-wrapper {
 	}
 
 	.person-area {
-		display: flex;
-		flex-direction: row;
-		width: 100%;
-		padding-top: 50px;
 		&__data{
-			width: 50%;
+			display: inline-block;
+			width: 60%;
+		}
+		&__name {
+			font-size: 21px;
+			font-weight: 700;
+		}
+		&__range {
+			margin-top: 10px;
+			font-size: 18px;
+			font-weight: 500;
+		}
+		&__achievement {
+			margin-top: 20px;
+			font-size: 16px;
+		}
+		&__button {
+			text-align: center;
+			width: 170px;
+			height: 50px;
+			margin-top: 70px;
+			background-color: $accent;
+			border-radius: 7px;
+			line-height: 50px;
+			color: white;
+		}
+		&__button a {
+			text-decoration: none;
+			color: white;
+			font-weight: 500;
 		}
 		&__portrait {
-			width: 50%;
+			width: 40%;
 			& img {
 				width: 100%;
 			}

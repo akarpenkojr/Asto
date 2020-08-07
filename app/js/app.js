@@ -25,7 +25,7 @@ $(document).ready(function(){
 		items: 1,
 		center: true,
 		loop: true,
-		mouseDrag: false,
+		mouseDrag: true,
 		autoplay: true,
 		autoplayHoverPause: true,
 		autoplayTimeout: 5000,
@@ -40,7 +40,7 @@ $(document).ready(function(){
 		mouseDrag: false,
 		autoplay: true,
 		autoplayHoverPause: true,
-		autoplayTimeout: 5000,
+		autoplayTimeout: 7000,
 		smartSpeed: 700,
 	});
 	$(".owl-carousel-services-m").owlCarousel({
@@ -51,7 +51,7 @@ $(document).ready(function(){
 		mouseDrag: true,
 		autoplay: true,
 		autoplayHoverPause: true,
-		autoplayTimeout: 5000,
+		autoplayTimeout: 7000,
 		smartSpeed: 700,
 	});
 	$(".owl-carousel-team").owlCarousel({
