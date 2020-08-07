@@ -4,14 +4,23 @@ $(document).ready(function(){
 			scrollTop: $("#services").offset().top
 		}, 2000);
 	});
-
 	$("#mouse2").click(function() {
 		$([document.documentElement, document.body]).animate({
 			scrollTop: $("#services").offset().top
 		}, 2000);
 	});
+	$("#mouse3").click(function() {
+		$([document.documentElement, document.body]).animate({
+			scrollTop: $("#team").offset().top
+		}, 2000);
+	});
+	$("#mouse4").click(function() {
+		$([document.documentElement, document.body]).animate({
+			scrollTop: $("#team").offset().top
+		}, 2000);
+	});
 
-	$(".owl-carousel").owlCarousel({
+	$(".owl-carousel-header").owlCarousel({
 		nav: false,
 		items: 1,
 		center: true,
@@ -22,6 +31,39 @@ $(document).ready(function(){
 		autoplayTimeout: 5000,
 		smartSpeed: 700,
 		dots: true
+	});
+	$(".owl-carousel-services-d").owlCarousel({
+		nav: false,
+		items: 2,
+		center: false,
+		loop: true,
+		mouseDrag: false,
+		autoplay: true,
+		autoplayHoverPause: true,
+		autoplayTimeout: 5000,
+		smartSpeed: 700,
+	});
+	$(".owl-carousel-services-m").owlCarousel({
+		nav: false,
+		items: 1,
+		center: true,
+		loop: true,
+		mouseDrag: true,
+		autoplay: true,
+		autoplayHoverPause: true,
+		autoplayTimeout: 5000,
+		smartSpeed: 700,
+	});
+	$(".owl-carousel-team").owlCarousel({
+		nav: false,
+		items: 1,
+		center: true,
+		loop: true,
+		mouseDrag: true,
+		autoplay: true,
+		autoplayHoverPause: true,
+		autoplayTimeout: 5000,
+		smartSpeed: 700,
 	});
 });
 
