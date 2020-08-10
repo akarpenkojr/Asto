@@ -19,6 +19,16 @@ $(document).ready(function(){
 			scrollTop: $("#team").offset().top
 		}, 2000);
 	});
+	$("#link1").click(function() {
+		$([document.documentElement, document.body]).animate({
+			scrollTop: $("#services").offset().top
+		}, 2000);
+	});
+	$("#link2").click(function() {
+		$([document.documentElement, document.body]).animate({
+			scrollTop: $("#team").offset().top
+		}, 2000);
+	});
 
 	$(".owl-carousel-header").owlCarousel({
 		nav: false,
@@ -66,6 +76,15 @@ $(document).ready(function(){
 		smartSpeed: 700,
 	});
 });
+
+function openNav() {
+	document.getElementById("mySidenav").style.width = "100%";
+}
+
+/* Close/hide the sidenav */
+function closeNav() {
+	document.getElementById("mySidenav").style.width = "0";
+}
 
 document.addEventListener("DOMContentLoaded", function() {
 
