@@ -377,6 +377,7 @@ div.owl-carousel-services-d-wrapper {
 	}
 	&__personal-position {
 		font-size: 14px;
+		line-height: 16px;
 	}
 	&__range {
 		margin-top: 17px;
@@ -419,17 +420,17 @@ div.owl-carousel-services-d-wrapper {
 		font-size: 11px;
 	}
 	&__portrait {
-		width: 40%
+		width: 40%;
 	}
 	&__button {
-		margin-top: auto;
-		margin-bottom: 0;
+		margin: auto auto 5px;
 		width:110px;
 		height: 40px;
 		line-height: 40px;
 		background-color: $accent;
 		border-radius: 5px;
 		text-align: center;
+
 		& a {
 			color: #FFFFFF;
 			font-weight: 500;
@@ -565,9 +566,10 @@ div.owl-carousel-services-d-wrapper {
 		}
 		&__personal-position {
 			font-size: 18px;
+			line-height: 21px;
 		}
 		&__range {
-			margin-top: 37px;
+			margin-top: 31px;
 		}
 		&__range-title {
 			font-size: 25px;
@@ -609,7 +611,6 @@ div.owl-carousel-services-d-wrapper {
 			width: 40%
 		}
 		&__button {
-			margin-bottom: 0;
 			width: 170px;
 			height: 60px;
 			line-height: 60px;
