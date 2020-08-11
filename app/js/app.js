@@ -29,6 +29,11 @@ $(document).ready(function(){
 			scrollTop: $("#team").offset().top
 		}, 2000);
 	});
+	$("#link3").click(function() {
+		$([document.documentElement, document.body]).animate({
+			scrollTop: $("#contacts").offset().top
+		}, 2000);
+	});
 
 	$(".owl-carousel-header").owlCarousel({
 		nav: false,

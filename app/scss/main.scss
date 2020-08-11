@@ -354,10 +354,11 @@ div.owl-carousel-services-d-wrapper {
 }
 
 .team-block {
-	height: 100vh;
+	margin-top: 30px;
 	background-color: #FFFFFF;
 	&__title {
 		font-size: $mainTitleFontsizeM;
+		font-weight: 700;
 	}
 }
 
@@ -436,6 +437,24 @@ div.owl-carousel-services-d-wrapper {
 			font-weight: 500;
 			font-size: 12px;
 		}
+	}
+}
+.owl-dots {
+	display: none;
+}
+
+.contacts {
+	padding-top: 31px;
+	min-height: 30vh;
+	background-color: $accent;
+	&__title {
+		color: #FFFFFF;
+		font-size: $mainTitleFontsizeM;
+		margin-bottom: 20px;
+	}
+	&__items {
+		color: #FFFFFF;
+		margin-bottom: 9px;
 	}
 }
 
@@ -621,6 +640,21 @@ div.owl-carousel-services-d-wrapper {
 				font-weight: 500;
 				font-size: 18px;
 			}
+		}
+	}
+
+	.contacts {
+		padding-top: 37px;
+		min-height: 30vh;
+		background-color: $accent;
+		&__title {
+			color: #FFFFFF;
+			font-size: $mainTitleFontsizeD;
+			margin-bottom: 20px;
+		}
+		&__items {
+			color: #FFFFFF;
+			margin-bottom: 13px;
 		}
 	}
 
