@@ -365,32 +365,33 @@ div.owl-carousel-services-d-wrapper {
 	display: flex;
 	flex-direction: row;
 	width: 100%;
-	padding-top: 50px;
+	padding-top: 20px;
 	&__personal-data {
 		display: flex;
 		flex-direction: column;
 		width: 60%;
 	}
 	&__name {
-		font-size: 31px;
+		font-size: 18px;
 		font-weight: 500;
 	}
 	&__personal-position {
-		font-size: 18px;
+		font-size: 14px;
 	}
 	&__range {
-		margin-top: 37px;
+		margin-top: 17px;
 	}
 	&__range-title {
-		font-size: 25px;
+		font-size: 16px;
 	}
 	&__competencies {
-		margin-top: 27px;
+		display: none;
+		margin-top: 16px;
 		& ul {
-			padding-left: 11px;
+			padding-left: 5px;
 		}
 		& ul li{
-			font-size: 15px;
+			font-size: 11px;
 			list-style-type: none;
 		}
 		& ul li:before{
@@ -398,41 +399,41 @@ div.owl-carousel-services-d-wrapper {
 		}
 	}
 	&__competencies-title {
-		font-size: 25px;
+		font-size: 16px;
 	}
 	&__excerption-block {
-		display: flex;
-		margin-top: 20px;
-		flex-direction: row;
+		display: none;
+		margin-top: 15px;
 	}
 	&__excerption-author {
-		display: inline;
+		display: block;
 		white-space: nowrap;
 		font-weight: 500;
-		font-size: 18px;
+		font-size: 16px;
 		vertical-align: top;
 	}
 	&__excerption-text {
-		padding-left: 9px;
-		padding-right: 9px;
+		padding-left: 4px;
+		padding-right: 4px;
 		padding-top: 4px;
-		font-size: 14px;
+		font-size: 11px;
 	}
 	&__portrait {
 		width: 40%
 	}
 	&__button {
+		margin-top: auto;
 		margin-bottom: 0;
-		width: 170px;
-		height: 60px;
-		line-height: 60px;
+		width:110px;
+		height: 40px;
+		line-height: 40px;
 		background-color: $accent;
-		border-radius: 7px;
+		border-radius: 5px;
 		text-align: center;
 		& a {
 			color: #FFFFFF;
 			font-weight: 500;
-			font-size: 18px;
+			font-size: 12px;
 		}
 	}
 }
@@ -554,43 +555,70 @@ div.owl-carousel-services-d-wrapper {
 		}
 	}
 
-	.person-area {
-		&__data{
-			display: inline-block;
-			width: 60%;
+	.personal-block {
+		padding-top: 50px;
+		&__personal-data {
 		}
 		&__name {
-			font-size: 21px;
-			font-weight: 700;
+			font-size: 31px;
+			font-weight: 500;
+		}
+		&__personal-position {
+			font-size: 18px;
 		}
 		&__range {
-			margin-top: 10px;
-			font-size: 18px;
-			font-weight: 500;
+			margin-top: 37px;
 		}
-		&__achievement {
+		&__range-title {
+			font-size: 25px;
+		}
+		&__competencies {
+			display: inline-block;
+			margin-top: 27px;
+			& ul {
+				padding-left: 11px;
+			}
+			& ul li{
+				font-size: 15px;
+				list-style-type: none;
+			}
+			& ul li:before{
+				content: "— ";
+			}
+		}
+		&__competencies-title {
+			font-size: 25px;
+		}
+		&__excerption-block {
+			display: inline-block;
 			margin-top: 20px;
-			font-size: 16px;
 		}
-		&__button {
-			text-align: center;
-			width: 170px;
-			height: 50px;
-			margin-top: 70px;
-			background-color: $accent;
-			border-radius: 7px;
-			line-height: 50px;
-			color: white;
-		}
-		&__button a {
-			text-decoration: none;
-			color: white;
+		&__excerption-author {
+			display: inline;
+			white-space: nowrap;
 			font-weight: 500;
+			font-size: 18px;
+		}
+		&__excerption-text {
+			padding-left: 9px;
+			padding-right: 9px;
+			padding-top: 4px;
+			font-size: 14px;
 		}
 		&__portrait {
-			width: 40%;
-			& img {
-				width: 100%;
+			width: 40%
+		}
+		&__button {
+			margin-bottom: 0;
+			width: 170px;
+			height: 60px;
+			line-height: 60px;
+			background-color: $accent;
+			border-radius: 7px;
+			& a {
+				color: #FFFFFF;
+				font-weight: 500;
+				font-size: 18px;
 			}
 		}
 	}
