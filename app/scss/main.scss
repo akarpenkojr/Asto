@@ -7,6 +7,10 @@
 	height: 100%;
 }
 
+.border {
+	border: 2px solid black;
+}
+
 .right-line {
 	position: absolute;
 	display: block;
@@ -357,47 +361,78 @@ div.owl-carousel-services-d-wrapper {
 	}
 }
 
-.person-area {
+.personal-block {
 	display: flex;
 	flex-direction: row;
 	width: 100%;
 	padding-top: 50px;
-	&__data{
-		display: inline-block;
-		width: 50%;
+	&__personal-data {
+		display: flex;
+		flex-direction: column;
+		width: 60%;
 	}
 	&__name {
-		font-size: 16px;
-		font-weight: 700;
+		font-size: 31px;
+		font-weight: 500;
+	}
+	&__personal-position {
+		font-size: 18px;
 	}
 	&__range {
+		margin-top: 37px;
+	}
+	&__range-title {
+		font-size: 25px;
+	}
+	&__competencies {
+		margin-top: 27px;
+		& ul {
+			padding-left: 11px;
+		}
+		& ul li{
+			font-size: 15px;
+			list-style-type: none;
+		}
+		& ul li:before{
+			content: "— ";
+		}
+	}
+	&__competencies-title {
+		font-size: 25px;
+	}
+	&__excerption-block {
+		display: flex;
 		margin-top: 20px;
+		flex-direction: row;
+	}
+	&__excerption-author {
+		display: inline;
+		white-space: nowrap;
+		font-weight: 500;
+		font-size: 18px;
+		vertical-align: top;
+	}
+	&__excerption-text {
+		padding-left: 9px;
+		padding-right: 9px;
+		padding-top: 4px;
 		font-size: 14px;
-		font-weight: 500;
-	}
-	&__achievement {
-		margin-top: 20px;
-		font-size: 11px;
-	}
-	&__button {
-		text-align: center;
-		width: 170px;
-		height: 50px;
-		margin-top: 70px;
-		background-color: $accent;
-		border-radius: 7px;
-		line-height: 50px;
-		color: white;
-	}
-	&__button a {
-		text-decoration: none;
-		color: white;
-		font-weight: 500;
 	}
 	&__portrait {
-		width: 50%;
-		& img {
-			width: 100%;
+		width: 40%
+	}
+	&__button {
+		margin-bottom: 0;
+		width: 170px;
+		height: 60px;
+		line-height: 60px;
+		background-color: $accent;
+		border-radius: 7px;
+		text-align: center;
+		& a {
+			color: #FFFFFF;
+			font-weight: 500;
+			font-size: 18px;
 		}
 	}
 }
