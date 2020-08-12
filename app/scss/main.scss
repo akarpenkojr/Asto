@@ -30,6 +30,11 @@
 	z-index: 101;
 }
 
+.header-block__right-line {
+	z-index: 111;
+	background-color: transparent;
+}
+
 .header-block {
 	position: relative;
 	background-color: $bgaccent;
@@ -526,6 +531,7 @@ div.owl-carousel-services-d-wrapper {
 	}
 	.header-block__right-line {
 		z-index: 111;
+		background-color: transparent;
 	}
 	.header-block__scroll-icon {
 		display: none;
