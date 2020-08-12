@@ -50,13 +50,19 @@
 	height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
 	height: calc(var(--vh, 1vh) * 100);
 	width: 100vw;
+	&__top-line {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
 	&__logo {
 		margin-top: 15px;
-		width: 83%;
+		width: 80px;
 	}
 	&__menu-icon{
-		margin-top: 25%;
-		width: 37%;
+		margin-top: 15px;
+		width: 40px;
 		cursor: pointer;
 	}
 	&__title-block {
@@ -69,11 +75,13 @@
 		font-size: $mainTitleFontsizeM;
 		line-height: 22px;
 		font-weight: 700;
+		color: #FFFFFF;
 	}
 	&__subscribe-title {
 		font-size: 10px;
 		font-weight: 400;
 		margin-top: 27px;
+		color: #FFFFFF;
 	}
 	&__callback-block {
 		position: absolute;
@@ -537,6 +545,16 @@ div.owl-carousel-services-d-wrapper {
 		width: 151px;
 		right: 30px;
 		z-index: 0;
+	}
+	.header-block {
+		&__logo {
+			margin-top: 30px;
+			width: 150px;
+		}
+		&__menu-icon {
+			margin-top: 30px;
+			width: 70px;
+		}
 	}
 	.header-block__right-line {
 		z-index: 111;
