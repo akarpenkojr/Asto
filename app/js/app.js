@@ -395,37 +395,44 @@ $(document).ready(function(){
 		dots: true
 	});
 	$(".owl-carousel-services-d").owlCarousel({
-		nav: false,
+		nav: true,
 		items: 2,
 		center: false,
 		loop: true,
 		mouseDrag: false,
+		touchDrag: false,
+		pullDrag: false,
 		autoplay: true,
 		autoplayHoverPause: true,
 		autoplayTimeout: 7000,
 		smartSpeed: 700,
 	});
 	$(".owl-carousel-services-m").owlCarousel({
-		nav: false,
+		nav: true,
 		items: 1,
 		center: true,
 		loop: true,
-		mouseDrag: true,
+		mouseDrag: false,
+		touchDrag: false,
+		pullDrag: false,
 		autoplay: true,
 		autoplayHoverPause: true,
 		autoplayTimeout: 7000,
 		smartSpeed: 700,
 	});
 	$(".owl-carousel-team").owlCarousel({
-		nav: false,
+		nav: true,
 		items: 1,
 		center: true,
 		loop: true,
-		mouseDrag: true,
+		mouseDrag: false,
+		touchDrag: false,
+		pullDrag: false,
 		autoplay: true,
 		autoplayHoverPause: true,
-		autoplayTimeout: 5000,
+		autoplayTimeout: 9000,
 		smartSpeed: 700,
+		stagePadding: 2
 	});
 });
 
