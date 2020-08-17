@@ -397,12 +397,14 @@ div.owl-carousel-services-d-wrapper {
 	display: flex;
 	flex-direction: row;
 	width: 95%;
+	height: 250px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 15px;
 	background-color: $accent;
 	padding-left: 10px;
 	padding-right: 10px;
+	margin-bottom: 15px;
 	&__personal-data {
 		display: flex;
 		flex-direction: column;
@@ -653,7 +655,10 @@ div.owl-carousel-services-d-wrapper {
 
 	.personal-block {
 		padding-top: 15px;
+		margin-bottom: 21px;
+		height: 590px;
 		&__personal-data {
+			padding-right: 10px;
 		}
 		&__name {
 			font-size: 31px;
@@ -669,6 +674,9 @@ div.owl-carousel-services-d-wrapper {
 		}
 		&__range-title {
 			font-size: 25px;
+		}
+		&__range-info {
+			font-size: 14px;
 		}
 		&__competencies {
 			display: inline-block;
@@ -696,6 +704,7 @@ div.owl-carousel-services-d-wrapper {
 			white-space: nowrap;
 			font-weight: 600;
 			font-size: 18px;
+			text-align: center;
 		}
 		&__excerption-text {
 			padding-left: 9px;
